@@ -6,11 +6,14 @@ This repository contains various JavaScript functions and examples to help you l
 
 - [Introduction](#introduction)
 - [Files and Functions](#files-and-functions)
-  - [basic.js](#basicjs)
-  - [maths.js](#mathsjs)
-  - [pattern.js](#patternjs)
-  - [recursion.js](#recursionjs)
-  - [hashing.js](#hashingjs)
+  - [Learn the Basics](#learn-the-basics)
+    - [basic.js](#basicjs)
+    - [maths.js](#mathsjs)
+    - [pattern.js](#patternjs)
+    - [recursion.js](#recursionjs)
+    - [hashing.js](#hashingjs)
+  - [Sorting Techniques](#sorting-techniques)
+    - [sorting.js](#sortingjs)
 
 ## Introduction
 
@@ -18,7 +21,9 @@ This repository is designed to help beginners understand the basics of JavaScrip
 
 ## Files and Functions
 
-### basic.js
+### Learn the Basics
+
+#### basic.js
 
 This file contains basic JavaScript functions and examples, including:
 
@@ -28,7 +33,7 @@ This file contains basic JavaScript functions and examples, including:
 - `forLoops()`: Demonstrates the use of for loops.
 - `whileLoops()`: Demonstrates the use of while loops.
 
-### maths.js
+#### maths.js
 
 This file contains various mathematical functions, including:
 
@@ -48,7 +53,7 @@ This file contains various mathematical functions, including:
 - `printFibonacci(n)`: Prints the Fibonacci sequence up to `n` terms.
 - `printFibonacciSpaceOptimized(n)`: Prints the Fibonacci sequence up to `n` terms in a space-optimized manner.
 
-### pattern.js
+#### pattern.js
 
 This file contains functions to print various patterns, including:
 
@@ -61,7 +66,7 @@ This file contains functions to print various patterns, including:
 - `pattern7(n)`: Prints a centered triangle pattern.
 - `pattern8(n)`: Prints an inverted triangle pattern.
 
-### recursion.js
+#### recursion.js
 
 This file contains functions that demonstrate recursion, including:
 
@@ -71,7 +76,7 @@ This file contains functions that demonstrate recursion, including:
 - `sumOfNaturalNumbers(n, sum)`: Calculates the sum of natural numbers up to `n` using recursion.
 - `factorial(n, output)`: Calculates the factorial of a number using recursion.
 
-### hashing.js
+#### hashing.js
 
 This file contains functions that demonstrate hashing techniques, including:
 
@@ -82,3 +87,14 @@ This file contains functions that demonstrate hashing techniques, including:
 - `countFreqObj(arr)`: Counts the frequency of each element in the array using an object.
 - `countFreqMapArr(arr)`: Counts the frequency of each element in the array using a Map.
 - `findHighAndLowFreq(arr)`: Finds the elements with the highest and lowest frequency in the array and prints them.
+
+### Sorting Techniques
+
+#### sorting.js
+
+This file contains functions that demonstrate sorting algorithms, including:
+
+- `selectionSort(n, arr)`: Sorts an array using the selection sort algorithm.
+- `selectionSort2(n, arr)`: Another implementation of the selection sort algorithm.
+- `selectionSortEasy(n, arr)`: A simplified version of the selection sort algorithm with additional logging.
+- `bubbleSort(n, arr)`: Sorts an array using the bubble sort algorithm.
