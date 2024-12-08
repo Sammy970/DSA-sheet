@@ -10,9 +10,7 @@ This repository contains various JavaScript functions and examples to help you l
   - [maths.js](#mathsjs)
   - [pattern.js](#patternjs)
   - [recursion.js](#recursionjs)
-- [How to Run](#how-to-run)
-- [Contributing](#contributing)
-- [License](#license)
+  - [hashing.js](#hashingjs)
 
 ## Introduction
 
@@ -73,20 +71,13 @@ This file contains functions that demonstrate recursion, including:
 - `sumOfNaturalNumbers(n, sum)`: Calculates the sum of natural numbers up to `n` using recursion.
 - `factorial(n, output)`: Calculates the factorial of a number using recursion.
 
-## How to Run
+### hashing.js
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd your-repo-name
-   ```
-3. Run the JavaScript files using Node.js:
-    ```sh
-    node Learn\ the\ Basics/basic.js
-    node Learn\ the\ Basics/maths.js
-    node Learn\ the\ Basics/pattern.js
-    node Learn\ the\ Basics/recursion.js
-    ```
+This file contains functions that demonstrate hashing techniques, including:
+
+- `findQuery(n, query)`: Finds the frequency of each query element in the array n using a nested loop.
+- `findQueryHashing(data, query)`: Finds the frequency of each query element in the array data using a hash map for better performance.
+- `findQueryString(string, query)`: Finds the frequency of each query character in the string using a nested loop.
+- `findQueryStringHashing(string, query)`: Finds the frequency of each query character in the string using a hash map for better performance.
+- `countFreqObj(arr)`: Counts the frequency of each element in the array using an object.
+- `countFreqMapArr(arr)`: Counts the frequency of each element in the array using a Map.
