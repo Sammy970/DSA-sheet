@@ -81,3 +81,4 @@ This file contains functions that demonstrate hashing techniques, including:
 - `findQueryStringHashing(string, query)`: Finds the frequency of each query character in the string using a hash map for better performance.
 - `countFreqObj(arr)`: Counts the frequency of each element in the array using an object.
 - `countFreqMapArr(arr)`: Counts the frequency of each element in the array using a Map.
+- `findHighAndLowFreq(arr)`: Finds the elements with the highest and lowest frequency in the array and prints them.

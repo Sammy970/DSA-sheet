@@ -7,8 +7,10 @@ function main() {
   // findQueryString("abcdabefc", ["a", "z", "b"]);
   // findQueryStringHashing("abcabcdef", ["f", "z", "b"]);
 
-  countFreqObj(data);
-  countFreqMapArr(data);
+  // countFreqObj(data);
+  // countFreqMapArr(data);
+
+  findHighAndLowFreq(data);
 }
 
 function findQuery(n, query) {
@@ -116,6 +118,47 @@ function countFreqMapArr(arr) {
   }
 
   console.log(countMap);
+}
+
+function findHighAndLowFreq(arr) {
+  let freqMap = new Map();
+
+  for (let num of arr) {
+    if (freqMap.has(num)) {
+      freqMap.set(num, freqMap.get(num) + 1);
+    } else {
+      freqMap.set(num, 1);
+    }
+  }
+
+  let highest = {
+    key: null,
+    num: -Infinity,
+  };
+  let lowest = {
+    key: null,
+    num: Infinity,
+  };
+
+  freqMap.forEach((num, key) => {
+    if (num > highest.num) {
+      highest = {
+        key: key,
+        num: num,
+      };
+    }
+
+    if (num < lowest.num) {
+      lowest = {
+        key: key,
+        num: num,
+      };
+    }
+  });
+
+  const statement = `The frequency of ${highest.key} is ${highest.num}, i.e. the highest and the frequency of ${lowest.key} is ${lowest.num} i.e. the lowest.`;
+
+  console.log(statement);
 }
 
 main();
